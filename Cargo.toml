@@ -8,7 +8,7 @@ authors = [
     "Overworld Team <https://github.com/orgs/Liefland/teams/overworld>",
 ]
 repository = "https://github.com/Liefland/overworld-demo-typegame"
-homepage = "https://github.com/Liefland/overworld"
+homepage = "https://overworld.liefland.net"
 categories = ["game-development"]
 keywords = ["game", "typeracer"]
 readme = "README.md"
