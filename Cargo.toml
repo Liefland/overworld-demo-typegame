@@ -1,5 +1,6 @@
 [package]
 name = "overworld_demo_typegame"
+description = "A typing game demo using the Overworld library."
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
@@ -10,9 +11,9 @@ authors = [
 repository = "https://github.com/Liefland/overworld-demo-typegame"
 homepage = "https://overworld.liefland.net"
 categories = ["game-development"]
-keywords = ["game", "typeracer"]
+keywords = ["game", "typing", "overworld_demo"]
 readme = "README.md"
-publish = false
+publish = true
 
 [dependencies]
 iced = "0.10.0"
