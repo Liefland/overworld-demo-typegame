@@ -1,0 +1,20 @@
+[package]
+name = "overworld_demo_typegame"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = [
+    "Zarthus <zarthus@liefland.net>",
+    "Overworld Team <https://github.com/orgs/Liefland/teams/overworld>",
+]
+repository = "https://github.com/Liefland/overworld-demo-typegame"
+homepage = "https://github.com/Liefland/overworld"
+categories = ["game-development"]
+keywords = ["game", "typeracer"]
+readme = "README.md"
+publish = false
+
+[dependencies]
+iced = "0.10.0"
+overworld = { version = "0.2.2", features = [] }
+wikipedia = "0.3.4"
