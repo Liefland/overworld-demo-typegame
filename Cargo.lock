@@ -2034,30 +2034,61 @@ dependencies = [
 
 [[package]]
 name = "overworld"
-version = "0.2.2"
+version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b0818e564428fce532abfbb64794e38115146b9f2c1f577ef880d34446e15a6a"
+checksum = "af7614fecc0e4b50ea2fe8cd34f8c2d4bbd323e73d9f0ecbec76fcfbe455d663"
 dependencies = [
- "overworld_components",
+ "overworld_dice",
+ "overworld_incremental",
+ "overworld_progression",
+ "overworld_resource",
 ]
 
 [[package]]
-name = "overworld_components"
-version = "0.2.2"
+name = "overworld_demo_typegame"
+version = "0.2.0"
+dependencies = [
+ "iced",
+ "overworld",
+ "wikipedia",
+]
+
+[[package]]
+name = "overworld_dice"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b69460ffc7134b9c8e56fec7e6079c1eb6e45400b4323f15114c95ea5d667691"
+checksum = "4c36d174a7f4696588780dbe5b6399c38fe22569b8281f42ff2cf96633465145"
 dependencies = [
  "rand 0.8.5",
  "serde",
 ]
 
 [[package]]
-name = "overworld_demo_typegame"
-version = "0.1.0"
+name = "overworld_incremental"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c0232c5f13dcb0ecf8af1e22b4c2f37b267fb31ae18fdd49c44c7bfcf8d976b6"
 dependencies = [
- "iced",
- "overworld",
- "wikipedia",
+ "serde",
+]
+
+[[package]]
+name = "overworld_progression"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "eb3ec2d4cbf0638f464be32fa2ba2f62b7203950e6ca0400fdec1ec5d19f793d"
+dependencies = [
+ "rand 0.8.5",
+ "serde",
+]
+
+[[package]]
+name = "overworld_resource"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3a82bebbfffbf712332f6bf362edc02ac47d8bae83be4f311de8d27b53bbedbd"
+dependencies = [
+ "serde",
 ]
 
 [[package]]

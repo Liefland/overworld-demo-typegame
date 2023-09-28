@@ -1,5 +1,5 @@
-use overworld::component::progress::ProgressBar;
-use overworld::component::progression::experience::{
+use overworld::progress::ProgressBar;
+use overworld::progression::experience::{
     ExperienceLevelUpTable, ExperienceSystem, ExperienceTracker,
 };
 
