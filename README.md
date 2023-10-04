@@ -2,7 +2,11 @@
 
 Built with the overworld library on top of the iced gui.
 
-![game](doc/game.mp4)
+| Main Menu                  | Game                   | End Screen                        |
+|----------------------------|------------------------|-----------------------------------|
+| ![mm](doc/ui_mainmenu.png) | ![ui](doc/ui_game.png) | ![endscreen](doc/ui_overview.png) |
+
+![game](doc/game.gif)
 
 ## License
 
