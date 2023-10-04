@@ -2,7 +2,7 @@
 
 Built with the overworld library on top of the iced gui.
 
-![game](doc/ui_game.png)
+![game](doc/game.mp4)
 
 ## License
 
