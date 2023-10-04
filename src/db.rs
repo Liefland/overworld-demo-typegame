@@ -1,3 +1,5 @@
+use wikipedia_liefland as wikipedia;
+
 pub struct Text {
     pub source: String,
     pub text: String,
